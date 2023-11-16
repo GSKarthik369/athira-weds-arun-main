@@ -1,1 +1,1 @@
-Deployed here: [alkka-weds-akash.netlify.app](https://alkka-weds-akash.netlify.app/)
+Deployed here: [athira-weds-arun.netlify.app](https://athira-weds-arun.netlify.app/)
