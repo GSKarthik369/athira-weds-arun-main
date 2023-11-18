@@ -11,6 +11,26 @@ $(document).on('click', function(){
     document.getElementById("my_audio").play();
 });
 
+var siteCondition = true;
+var letterContainer = document.getElementById("letter");
+var siteError = document.getElementById("siteError");
+var elementLFT = document.querySelector(".coverTop");
+var elementRGT = document.querySelector(".coverBottom");
+var opOvrLay = document.getElementById("opovrlay");
+if(siteCondition) {
+  letterContainer.style.display = "";
+  siteError.style.display = "none";
+  elementLFT.style.display = "";
+  elementRGT.style.display = "";
+  opOvrLay.style.display = "";
+} else{
+  letterContainer.style.display = "none";
+  siteError.style.display = "";
+  elementLFT.style.display = "none";
+  elementRGT.style.display = "none";
+  opOvrLay.style.display = "none";
+}
+
 
 function animateOpen(){
 	window.scroll(0,0);
